@@ -1,0 +1,16 @@
+Fusion Classifier Test Metrics:
+Test Loss: 0.4528
+Test Accuracy: 0.8246
+Test F1 Macro: 0.7983
+Test Precision Macro: 0.7947
+Test Recall Macro: 0.8025
+
+Classification Report:
+               precision    recall  f1-score   support
+
+non-clickbait       0.88      0.86      0.87       353
+    clickbait       0.71      0.74      0.73       160
+
+     accuracy                           0.82       513
+    macro avg       0.79      0.80      0.80       513
+ weighted avg       0.83      0.82      0.83       513

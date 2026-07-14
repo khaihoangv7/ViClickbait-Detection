@@ -1,0 +1,15 @@
+TF-IDF + SVM baseline metrics:
+Accuracy: 0.7778
+F1 Macro: 0.7175
+Precision Macro: 0.7496
+Recall Macro: 0.7035
+
+Classification Report:
+               precision    recall  f1-score   support
+
+non-clickbait       0.80      0.90      0.85       353
+    clickbait       0.70      0.51      0.59       160
+
+     accuracy                           0.78       513
+    macro avg       0.75      0.70      0.72       513
+ weighted avg       0.77      0.78      0.77       513

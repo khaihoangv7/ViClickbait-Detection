@@ -1,0 +1,16 @@
+PhoBERT Classifier Test Metrics:
+Test Loss: 0.3952
+Test Accuracy: 0.8109
+Test F1 Macro: 0.7876
+Test Precision Macro: 0.7800
+Test Recall Macro: 0.7994
+
+Classification Report:
+               precision    recall  f1-score   support
+
+non-clickbait       0.89      0.83      0.86       353
+    clickbait       0.67      0.77      0.72       160
+
+     accuracy                           0.81       513
+    macro avg       0.78      0.80      0.79       513
+ weighted avg       0.82      0.81      0.81       513

@@ -1,0 +1,26 @@
+# Vietnamese Clickbait Detection - Dependencies
+# Core ML/DL
+torch>=2.0.0
+transformers>=4.30.0
+scikit-learn>=1.3.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Vietnamese NLP
+underthesea>=6.8.0
+
+# Retrieval & LLM (RAG)
+faiss-cpu>=1.7.4
+openai>=1.0.0
+
+# Evaluation & Visualisation
+rouge-score>=0.1.2
+nltk>=3.8.1
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm>=4.65.0
+joblib>=1.3.0

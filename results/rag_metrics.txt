@@ -1,0 +1,49 @@
+RAG Generation Evaluation Report
+==========================================
+Average BLEU:    0.2230
+Average ROUGE-1: 0.5619
+Average ROUGE-2: 0.3007
+Average ROUGE-L: 0.4484
+==========================================
+
+Detailed Results:
+ID: 1
+Clickbait Title: Không thể tin nổi: Sự thật về người đàn ông 30 năm không ngủ!
+Context: Ông Thái Ngọc (Quảng Nam) nổi tiếng thế giới vì có khả năng thức suốt hơn 30 năm sau một trận sốt cao vào năm 1973. Dù mất ngủ kéo dài, ông vẫn khỏe mạnh và làm việc đồng áng bình thường.
+Human Reference: Người đàn ông ở Quảng Nam có khả năng thức suốt hơn 30 năm mà vẫn khỏe mạnh
+Generated Title: Ông Thái Ngọc (Quảng Nam) nổi tiếng thế giới vì có khả năng thức suốt...
+Explanation: Tiêu đề bị đánh giá là clickbait vì đã sử dụng dấu chấm than để cường điệu hóa hoặc gây chú ý quá mức, sử dụng các cụm từ mơ hồ như 'sự thật về' để cố tình che giấu thông tin quan trọng, sử dụng các từ ngữ phóng đại cảm xúc mạnh như 'không thể tin nổi' nhằm lôi kéo tương tác. Đối chiếu với nội dung bài báo, tiêu đề đã cố tình tạo khoảng cách thông tin (curiosity gap) để kích thích người dùng bấm vào xem.
+Metrics: BLEU=0.2188, ROUGE-1=0.6275, ROUGE-2=0.3673, ROUGE-L=0.5490
+----------------------------------------
+ID: 2
+Clickbait Title: Sốc với số tiền khủng ca sĩ A quyên góp từ thiện, ai nghe cũng ngỡ ngàng!
+Context: Ca sĩ A vừa công bố bảng sao kê chi tiết số tiền 15 tỷ đồng quyên góp được từ các nhà hảo tâm để hỗ trợ đồng bào vùng lũ miền Trung, khẳng định toàn bộ số tiền đã được giải ngân đúng mục đích.
+Human Reference: Ca sĩ A công bố sao kê và giải ngân 15 tỷ đồng quyên góp từ thiện vùng lũ
+Generated Title: Ca sĩ A vừa công bố bảng sao kê chi tiết số tiền 15 tỷ...
+Explanation: Tiêu đề bị đánh giá là clickbait vì đã sử dụng dấu chấm than để cường điệu hóa hoặc gây chú ý quá mức, sử dụng các từ ngữ phóng đại cảm xúc mạnh như 'ngỡ ngàng' nhằm lôi kéo tương tác. Đối chiếu với nội dung bài báo, tiêu đề đã cố tình tạo khoảng cách thông tin (curiosity gap) để kích thích người dùng bấm vào xem.
+Metrics: BLEU=0.2990, ROUGE-1=0.6087, ROUGE-2=0.3636, ROUGE-L=0.4783
+----------------------------------------
+ID: 3
+Clickbait Title: Chấn động: Bí mật động trời đằng sau việc đóng cửa nhà hàng nổi tiếng nhất quận 1
+Context: Nhà hàng ẩm thực Việt tại trung tâm quận 1 phải dừng hoạt động từ ngày mai do hết hạn hợp đồng thuê mặt bằng và chi phí giá thuê tăng cao, đại diện nhà hàng cho biết chưa có kế hoạch mở lại.
+Human Reference: Nhà hàng nổi tiếng tại quận 1 đóng cửa do hết hạn hợp đồng thuê mặt bằng
+Generated Title: Nhà hàng ẩm thực Việt tại trung tâm quận 1 phải dừng hoạt động từ...
+Explanation: Tiêu đề bị đánh giá là clickbait vì đã sử dụng các từ ngữ phóng đại cảm xúc mạnh như 'chấn động' nhằm lôi kéo tương tác. Đối chiếu với nội dung bài báo, tiêu đề đã cố tình tạo khoảng cách thông tin (curiosity gap) để kích thích người dùng bấm vào xem.
+Metrics: BLEU=0.1910, ROUGE-1=0.5769, ROUGE-2=0.2400, ROUGE-L=0.4615
+----------------------------------------
+ID: 4
+Clickbait Title: Người này đã làm điều gì khiến giá xăng trong nước đột ngột giảm mạnh chiều nay?
+Context: Liên Bộ Tài chính - Công Thương vừa công bố điều chỉnh giá bán lẻ xăng dầu từ 15h hôm nay, theo đó giá xăng RON 95 giảm 1.200 đồng/lít nhờ xu hướng giảm chung của giá dầu thế giới.
+Human Reference: Giá xăng RON 95 giảm 1.200 đồng mỗi lít theo xu hướng thế giới từ chiều nay
+Generated Title: Liên Bộ Tài chính - Công Thương vừa công bố điều chỉnh giá bán lẻ...
+Explanation: Tiêu đề bị đánh giá là clickbait vì đã sử dụng câu hỏi tu từ kích thích sự tò mò của độc giả thay vì cung cấp thông tin trực tiếp, sử dụng các cụm từ mơ hồ như 'người này' để cố tình che giấu thông tin quan trọng. Đối chiếu với nội dung bài báo, tiêu đề đã cố tình tạo khoảng cách thông tin (curiosity gap) để kích thích người dùng bấm vào xem.
+Metrics: BLEU=0.0191, ROUGE-1=0.4082, ROUGE-2=0.0426, ROUGE-L=0.2041
+----------------------------------------
+ID: 5
+Clickbait Title: Bạn sẽ khóc khi biết sự thật về cô bé nghèo bán vé số dạo dưới trời mưa lớn!
+Context: Một cô bé 10 tuổi tại Cần Thơ tranh thủ đi bán vé số sau giờ học để phụ giúp mẹ bị bệnh hiểm nghèo. Nhiều người dân đã giúp đỡ và kêu gọi quyên góp hỗ trợ học phí cho em.
+Human Reference: Cô bé 10 tuổi tại Cần Thơ bán vé số phụ giúp mẹ bị bệnh hiểm nghèo được hỗ trợ học phí
+Generated Title: Một cô bé 10 tuổi tại Cần Thơ tranh thủ đi bán vé số sau...
+Explanation: Tiêu đề bị đánh giá là clickbait vì đã sử dụng dấu chấm than để cường điệu hóa hoặc gây chú ý quá mức, sử dụng các cụm từ mơ hồ như 'sự thật về' để cố tình che giấu thông tin quan trọng. Đối chiếu với nội dung bài báo, tiêu đề đã cố tình tạo khoảng cách thông tin (curiosity gap) để kích thích người dùng bấm vào xem.
+Metrics: BLEU=0.3870, ROUGE-1=0.5882, ROUGE-2=0.4898, ROUGE-L=0.5490
+----------------------------------------
