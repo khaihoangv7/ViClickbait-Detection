@@ -52,3 +52,8 @@ desktop.ini
 logs/
 wandb/
 mlruns/
+
+# Documents
+*.pdf
+*.docx
+*.doc
